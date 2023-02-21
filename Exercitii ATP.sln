@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointeri in C", "Pointeri in C\Pointeri in C.vcxproj", "{6E398D5C-1B43-4A86-B6D1-5A9EE0603FF3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointer la functii in C", "Pointer la functii in C\Pointer la functii in C.vcxproj", "{A3E3CEFD-0462-4836-8171-7713EC377CA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{6E398D5C-1B43-4A86-B6D1-5A9EE0603FF3}.Release|x64.Build.0 = Release|x64
 		{6E398D5C-1B43-4A86-B6D1-5A9EE0603FF3}.Release|x86.ActiveCfg = Release|Win32
 		{6E398D5C-1B43-4A86-B6D1-5A9EE0603FF3}.Release|x86.Build.0 = Release|Win32
+		{A3E3CEFD-0462-4836-8171-7713EC377CA0}.Debug|x64.ActiveCfg = Debug|x64
+		{A3E3CEFD-0462-4836-8171-7713EC377CA0}.Debug|x64.Build.0 = Debug|x64
+		{A3E3CEFD-0462-4836-8171-7713EC377CA0}.Debug|x86.ActiveCfg = Debug|Win32
+		{A3E3CEFD-0462-4836-8171-7713EC377CA0}.Debug|x86.Build.0 = Debug|Win32
+		{A3E3CEFD-0462-4836-8171-7713EC377CA0}.Release|x64.ActiveCfg = Release|x64
+		{A3E3CEFD-0462-4836-8171-7713EC377CA0}.Release|x64.Build.0 = Release|x64
+		{A3E3CEFD-0462-4836-8171-7713EC377CA0}.Release|x86.ActiveCfg = Release|Win32
+		{A3E3CEFD-0462-4836-8171-7713EC377CA0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
