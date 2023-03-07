@@ -8,7 +8,7 @@ int swap(int& a, int& b) {
 	return a, b;
 }
 
-void bubleSort(int arr[], int size) {
+void BubbleSort(int arr[], int size) {
 
 	for (int i = 0; i < size; i++)
 	{
@@ -23,7 +23,7 @@ void bubleSort(int arr[], int size) {
 	return;
 }
 
-void printArray(int arr[], int size) {
+void PrintArray(int arr[], int size) {
 	for (int i = 0; i < size; i++)
 	{
 		printf("%d ", arr[i]);
@@ -34,7 +34,7 @@ void printArray(int arr[], int size) {
 int main() {
 	const int size = 7;
 	int arr[size] = { 2, 8, 5, 3, 9, 4, 1 };
-	bubleSort(arr, size);
-	printArray(arr, size);
+	BubbleSort(arr, size);
+	PrintArray(arr, size);
 	return 0;
 }
