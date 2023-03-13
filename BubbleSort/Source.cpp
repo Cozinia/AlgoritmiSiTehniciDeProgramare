@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int swap(int& a, int& b) {
+int swap(int &a, int &b) {
 	int aux = a;
 	a = b;
 	b = aux;
@@ -34,6 +34,7 @@ void PrintArray(int arr[], int size) {
 int main() {
 	const int size = 7;
 	int arr[size] = { 2, 8, 5, 3, 9, 4, 1 };
+	printf("Bubble sort:\n");
 	BubbleSort(arr, size);
 	PrintArray(arr, size);
 	return 0;
